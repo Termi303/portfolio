@@ -10,5 +10,5 @@ package food;
  * @author termi303
  */
 abstract public class Food {
-    abstract void eat();
+    abstract public void eat();
 }

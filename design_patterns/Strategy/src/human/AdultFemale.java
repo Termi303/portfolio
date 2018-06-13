@@ -3,15 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package food;
+package human;
 
 /**
  *
  * @author termi303
  */
-public class Pizza extends Food {
-    @Override
-    public void eat() {
-        System.out.println("eat pizza");
+public class AdultFemale extends Human {
+    public AdultFemale() {
+        identifier = "AdultFemale";
     }
 }

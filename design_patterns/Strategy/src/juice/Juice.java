@@ -10,5 +10,5 @@ package juice;
  * @author termi303
  */
 abstract public class Juice {
-    
+    abstract public void drink();
 }

@@ -9,9 +9,9 @@ package food;
  *
  * @author termi303
  */
-public class Pizza extends Food {
+public class Salad extends Food {
     @Override
     public void eat() {
-        System.out.println("eat pizza");
+        System.out.println("eat salad");
     }
 }

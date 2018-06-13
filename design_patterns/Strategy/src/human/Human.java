@@ -8,7 +8,7 @@ import juice.Juice;
 public class Human {
     private Food foodToEat;
     private Juice juiceToDrink;
-    private String identifier;
+    String identifier;
     private void greet() {
         System.out.print(identifier + ": ");
     }
@@ -24,9 +24,10 @@ public class Human {
     }
     public void eatFood() {
         greet();
-        
+        foodToEat.eat();
     }
-    public void drinkFood() {
+    public void drinkJuice() {
         greet();
+        juiceToDrink.drink();
     }
 }

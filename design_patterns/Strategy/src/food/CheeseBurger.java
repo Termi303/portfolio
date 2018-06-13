@@ -10,7 +10,8 @@ package food;
  * @author termi303
  */
 public class CheeseBurger extends Food {
-    void eat() {
-        System.out.println("I eat cheeseburger!");
+    @Override
+    public void eat() {
+        System.out.println("eat cheeseburger");
     }
 }
